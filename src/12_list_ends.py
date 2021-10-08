@@ -8,3 +8,4 @@ lst = [random.randint(0,100) for i in range(lst_length)]
 print(lst)
 lst.sort()
 lst = [lst[0], lst[-1]]
+print(lst)
