@@ -4,8 +4,8 @@ from os import system
 
 def fibonacci(num):
     seq = [0, 1]
-    for i in range(-1, (num - 3)):
-        next = seq[i+1] + seq[i+2]
+    for i in range((num - 2)):
+        next = seq[i] + seq[i+1]
         seq.append(next)
     return seq[:num]
 
